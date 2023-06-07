@@ -22,3 +22,7 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
+      - name: postgres
+        image: postgres
+        ports:
+        - containerPort: 5432
